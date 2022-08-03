@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --verde: #405949;
+    --cinza: #838C7D;
+    --branco: #F2F2F2;
+    --cinza2: #A6A6A6;
+    --preto: #0D0D0D
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--cinza2);
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+hr {
+    height: 4px;
+    background-color: var(--cinza);
+}
+
+section {
+    border: solid 3px black;
+    margin-top:30px;
+    height: 700px;
+    width: 500px;
+    margin-left: 30%;
+    background-color: var(--verde);
+    border-radius: 4px;
+}
+
+div {
+    border-radius: 3px;
+}
+
+input:active {
+	position:relative;
+	top:1px;
+}
+
+.name {
+    display: flex;
+    border: solid 2px var(--cinza2);
+    height: 30px;
+    width: 209px;
+    margin-left: 28%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.name input {
+    width: 100%;
+}
+
+.altura {
+    display: flex;
+    border: solid 2px var(--cinza2);
+    height: 30px;
+    width: 210px;
+    margin-left: 28%;
+    margin-bottom: 40px;
+}
+
+.altura input {
+    width: 100%;
+}
+
+.peso {
+    display: flex;
+    border: solid 2px var(--cinza2);
+    height: 30px;
+    width: 205px;
+    margin-left: 28%;
+    margin-bottom: 40px;
+}
+
+.peso input {
+    width: 100%;
+}
+
+button {
+    font:bold;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid 1px black;
+    margin-left: 40%;
+    border-radius: 5px;
+    background-color: var(--cinza2);
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
+#resultado {
+    border: solid 5px var(--cinza2);
+    height: 300px;
+    width: 400px;
+    margin-left: 43px;
+    margin-top: 20px;
+    background-color: var(--preto);
+}
+
+#textoValue {
+    margin-top: 50px;
+    color: var(--verde);
+    font: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#textoResultado {
+    color: red;
+}
